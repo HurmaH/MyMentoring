@@ -1,0 +1,91 @@
+Class are template of objects
+ Class - Animal
+ 
+ properties/fields, varialble (coming outside of methods)
+ behaviors()/methods()
+ Methods: 
+         - Methods are behaviour that contains repeatable code/reusable actions/statements.
+          - Methods are behaviour of classes/objects
+         - grouping things together
+         - breaking things apart
+         
+ Why Methods are used:
+ - code readibility
+ - code reusibility
+ - easy maintain the code
+ - easier to debug
+ 
+ methods that we know so far :
+  
+  *main method :
+		special method that start and run your program
+ 
+ *Scanner class methods :
+		next()
+		nextX()..
+		
+*String class methods
+         strObject.length()
+		strObject.subString(1,4)
+		strObject.charAt(0)
+		
+*Arrays class methods
+		Arrays.toString(arrobject)
+		Arrays.sort(arrobject)
+
+-------------------------------------------
+void no return
+instead of void : Privitive data types, and Objects
+Access modifier |  specifier | return type     |method name| parameters| method body
+    (Optional)    (optional)       (required)    (required) 
+      
+      public        static           void           main        ()          { }
+      
+      
+      Methods observed:
+      
+      1, method without return value (with void)
+      2, method with return value (with return type= primitive data types or Objects )
+      3, method that does not take external data when being called
+          name4 ();
+          str.length();
+          strObject.toLowerCase();
+          
+      4, method that take external data when being called
+          name4("hi");
+          str.charAt(4);
+          
+      5, some methods need an object for calling 
+          str.trim(); //str is objects
+          
+      6, some methods does not need objects
+          name4 ();
+          
+ ---------------------------------------------------
+ questions to answer when you are creating methods:
+  1. is object required to call this method?  
+     Ex: Animal a = new Animal();
+         a.makeNoise();
+         
+  2. do we have to pass external data or not
+     name ();        no need to external data
+     name4 ("hi");   need external data/arguments/parameter
+     
+ 3. is this method returning some value:
+  void - no return
+  data type (String, Objects, Wrapper class, Arrays, ArrayList)
+  
+  // BREAK VS RETURN
+  
+  return: used to return value 
+          terminate method execution/stop method execution
+          
+  break : used inside switch and loop
+  
+  
+  system.exit -- shut down Java
+          
+  
+  
+      
+         
